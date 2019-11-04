@@ -1,6 +1,6 @@
 def prime?(number)
   (2..(number - 1)).step { |num|
-    return false if (number % num).odd? # == 0
+    return false if number % num == 0
   }
   true
 end
