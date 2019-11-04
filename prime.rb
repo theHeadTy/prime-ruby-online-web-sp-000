@@ -6,4 +6,4 @@ def prime?(number)
 end
 
 prime?(3)
-prime(-1)
+prime?(-1)
