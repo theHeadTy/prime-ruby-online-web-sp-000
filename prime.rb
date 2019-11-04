@@ -5,5 +5,5 @@ def prime?(number)
   true
 end
 
-prime?(2)
-#prime?(105557)
+prime?(3)
+prime(-1)
