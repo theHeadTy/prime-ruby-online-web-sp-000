@@ -1,11 +1,8 @@
 def prime?(number)
-  if number == -1
+  if number < 2
     return false
   end
-  (2..(number - 1)).step { |num|
-    return false if number % num == 0
-  }
-  true
+  (2..number / 2).none? { |n| number % n == 0 }
 end
 
 prime?(3)
