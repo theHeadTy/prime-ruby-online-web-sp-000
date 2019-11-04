@@ -1,5 +1,5 @@
 def prime?(number)
-  unless number == -1
+  if number == -1
     return false
   end
   (2..(number - 1)).step { |num|
